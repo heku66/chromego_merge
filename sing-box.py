@@ -1,8 +1,8 @@
 import requests
 import os
 
-url = "https://sing-box-subscribe-doraemon.vercel.app/config/https://raw.githubusercontent.com/Misaka-blog/chromego_merge/main/sub/base64.txt"
-output_folder = "sub"
+url = "https://raw.githubusercontent.com/heku66/chromego_merge/main/docs/base64.txt"
+output_folder = "docs"
 output_filename = "sing-box.json"
 
 # 发送HTTP请求
