@@ -347,7 +347,7 @@ merged_content = "\n".join(merged_proxies)
 try:
     encoded_content = base64.b64encode(merged_content.encode("utf-8")).decode("utf-8")
     
-    with open("./sub/base64.txt", "w") as encoded_file:
+    with open("./docs/base64.txt", "w") as encoded_file:
         encoded_file.write(encoded_content)
         
     print("Content successfully encoded and written to base64.txt.")
